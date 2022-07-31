@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>registration</title>
+</head>
+<header class="page-header">
+<h1>Библиотека нашего города</h1>
+</header>
+<div class="href" >
+<a href="index.html"> <span class="wer">Главный</span> </a> 
+<a href="news.html"><span class="wet">Новости</span></a>
+<a href="registration.html"><span class="wey">Регистрация</span></a>
+</div>
+<h2 class="h2">Регистрация</h2>
+<span class="surat">
+<img src="home1.jpg" alt="photo" width="400pх"><br><img src="home3.jpg" alt="photo" width="400pх"><br><img src="home4.jpg" alt="photo" width="400pх">
+</span>
+<body class="main">
+<div class="section">
+    <h3 class="h3">Формы для запольнения </h3>
+</div>
+<div class="FORM">
+<form action="form.php" method="post" name="form">
+<fieldset>
+<legend>АНКЕТА ДЛЯ ЗАПОЛНЕНИЯ</legend>
+<p><label for="name">Имя <em>*</em></label> <BR><input type="text" id="name" placeholder="name"></p>
+<p><label for="surname">Фамилия <em>*</em></label> <BR><input type="text" id="surname" placeholder="surname"></p>
+<p><label for="date">Дата рождения <em>*</em></label> <BR><input type="date" id="date" placeholder="date"></p>
+<p><label for="telephone">Телефон <em>*</em></label> <BR><input type="telephone" id="telephone" placeholder="telephone"></p>
+<p><label for="text">В&nbsp;каком городе родились<em>*</em></label> <BR><select form="fieldset"><option>москва</option><option>Санкт-петербург</option><option>Самара</option><option>Казань</option><option>Ульяновск</option><option>Саратов</option></select></p>
+<p><label for="sex">Ваш пол <em>*</em></label> <BR><input type="radio" name="sex" value="man" >Мужчина<input type="radio" name="sex" value="women" >Женщина</p>
+<p><label for="interesting">Ваш интересы <em>*</em></label> <BR><input type="checkbox" name="program"   > программирования <input type="checkbox" name="program"> информатика <input type="checkbox" name="program"> кибербезапастность<input type="checkbox" name="program"> разработка ПО<input type="checkbox" name="program">Аналитика данных</p>
+<p><label for="email">E-mail<em>*</em></label> <BR><input type="email" id="email" placeholder="name@domain.com"></p>
+<p><label for="passoword">Пароль <em>*</em></label> <BR><input type="passoword" id="passoword" placeholder="passoword"></p>
+<p><label for="text">Ваше сообщения</label> <br> <textarea  name="message" cols="30" rows="4" placeholder="Введите сообщение"> </textarea></p>
+<p><labelfor="text">День регистрация<BR> 
+<input type="radio" name="day" value="monday"checked> Понедельник
+<input type="radio" name="day" value="thuesday">Вторник
+<input type="radio" name="day" value="wensday"> Среда
+<input type="radio" name="day" value="Thursday">Четверг
+<input type="radio" name="day" value="Friday" > Пятница
+<input type="radio" name="day" value="Saturday"> Суббота
+<input type="radio" name="day" value="Sunday"> Воскресенье 
+</label></p>
+</fieldset>
+</form>
+</div>
+<div class="h3"><input type="submit" value="Зарегистрироваться"> <input type="submit" value="Отменит"></div>
+
+
+</body>
+<br><br><br>
+<footer class="footer">
+
+<div class="contact"><br>
+<h5>Контакты</h5>
+<span>Адрес</span>
+<span>344006, г. Ростов-на-Дону, ул. Пушкинская, 175А</span> <br>
+<span>тел.: (863) 264-85-97</span> <br>
+<span>e-mail: dspl-online@dspl.ru</span>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+<div class="contact1"><br>
+<h5>Как добраться?</h5>
+<span> ул. Большая Садовая (остановка улица Чехова)</span>
+<li>автобусы: 3, 3а, 7, 67, 70, 80, 98</li>
+<li>троллейбусы: 1, 2, 22&nbsp;ул. Красноармейская (остановка улица Чехова)</li>
+<li>маршрутные такси: 29, 40, 52, 55, 59, 67, 80, 88, 98, 226</li> <br>
+<br>
+</div>
+</footer>
+</html>
